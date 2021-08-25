@@ -5,7 +5,7 @@
 
 <img src="https://user-images.githubusercontent.com/68887544/123539267-73822380-d756-11eb-88dc-2f270ceb94eb.png" align="right">
 
-> * The major aim of this project was to develop a User Friendly & Responsive Website that tactfully illustrates a fully fledged workiing of Online Grocery Store.
+> * The major aim of this project was to develop a User Friendly & Responsive Website that tactfully illustrates working of a fully fledged Online Grocery Store.
 > * The project is completely responsive for all desktop sites specifically the most common ones, that includes -
 >   - 1920 x 1080 (20.52% of all screen device types)
 >   - 1366 x 768 (19.09% of all screen device types)
