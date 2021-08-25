@@ -43,6 +43,7 @@
 ## 𝐂𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧
 > * So that's it!
 > * You are free to clone the repository and see what exactly happening behind the scenes (I mean code.)
+> * Project Duration: 21st August 2021 - 25th August 2021
 > * Note: This Project is a part of a group project - [Online Grocery Store Project](https://github.com/shreyaschavhan/online-grocery-store)
 ---
 > P.S. Project By. [Shreyas Chavhan](https://www.linkedin.com/in/shreyaschavhan)
