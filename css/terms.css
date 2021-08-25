@@ -1,0 +1,183 @@
+@import 'style.css';
+
+
+footer{
+    height: 10vh;
+    background-color: white;
+    border: 0.1px solid #0000002b;
+}
+
+footer li, 
+footer a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    height: 2000px;
+}
+
+.side-image{
+    height: 100%;
+    width: 45vw;
+    background-image: url("../images/welcome-original.jpg");
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    height: 2000px;
+    width: 45vw;
+    backdrop-filter: blur(2.5px);
+    z-index: 1;
+}
+
+.inside-content{
+    position: relative;
+    z-index: 2;
+}
+
+.inside-content img{
+    width: 175px;
+    margin-top: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300; 
+}
+
+.text h1{
+    font-size: 100px;
+    color: #00FF00;
+    padding-top: 10px;
+}
+
+.text h2{
+    color: white;
+    font-size: 50px;
+}
+
+.text h3{
+    color: #00FF00;
+    font-size: 40px;
+}
+
+.content .para{
+    width: 600px;
+    /* height: 400px; */
+}
+
+.content{
+    margin-top: 240px;
+    margin-left: 125px;
+}
+
+.content h1{
+    color: #00FF00;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 300;       
+}
+
+.content p{
+    padding: 45px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+
+@media screen and (max-width: 1537px){
+    .inside-content img {
+        width: 125px;
+        margin-top: 125px;
+    }
+    .text h1 {
+        font-size: 75px;
+        padding-top: 5px;
+    }
+    .text h2 {
+        font-size: 35px;
+    }
+    .text h3 {
+        font-size: 30px;
+    }
+    .content {
+        margin-top: 125px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        padding: 35px 0px;
+        font-size: 14px;
+    }
+    .content .para {
+        width: 500px;
+        /* height: 425px; */
+    }
+    footer li, footer a {
+        font-size: 12px;
+    }
+    footer{
+        padding: 25px 277px;
+    }
+    .container{
+        height: 1450px;
+    }
+    .overlay{
+        height: 1450px;
+    }
+}
+
+@media screen and (max-width:1367px){
+    .text h1 {
+        font-size: 60px;
+    }
+    .text h2 {
+        font-size: 30px;
+    }
+    .text h3 {
+        font-size: 25px;
+    }
+    .content {
+        margin-top: 125px;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content p {
+        padding: 35px 0px;
+        font-size: 12px;
+    }
+    .content .para {
+        width: 450px;
+        /* height: 375px; */
+    }
+    footer li, footer a {
+        font-size: 12px;
+    }
+    footer{
+        padding: 25px 277px;
+    }
+    .container{
+        height: 1500px;
+    }
+    .overlay{
+        height: 1500px;
+    }
+}
